@@ -1,0 +1,2260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style type="text/css">
+     body
+     {
+       font-family: 'Poppins', sans-serif;
+       background-color: #ebf5fc;
+     }
+  .a1
+  {
+    border-radius: 0px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #d8e1e8, 
+             -5px -5px 10px #feffff;
+
+  }
+  .abc
+  {
+    color: black;
+    border-radius: 10px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #d8e1e8, 
+             -5px -5px 10px #feffff;
+             height: 50px;
+             width: 100px;
+             text-align: center;
+             color: #32a3b1;
+             line-height: 34px;
+  }
+  .abc:hover
+  {
+    border-radius: 10px;
+background: #ebf5fc;
+box-shadow: inset 5px 5px 10px #d8e1e8, 
+            inset -5px -5px 10px #feffff;
+            color: #32a3b1; 
+  }
+  .btn1
+  {
+         color: black;
+        border-radius: 10px;
+       background: #ebf5fc;
+           box-shadow:  5px 5px 10px #d8e1e8, 
+             -5px -5px 10px #feffff;
+             height: 50px;
+             width: 60px;
+             text-align: center;
+             margin: 5px;
+             line-height: 30px;
+             position: absolute;
+             right: 5px;
+             top: 1px;
+             color: #32a3b1;
+  }
+  .btn1:hover
+  {
+    border-radius: 10px;
+background: #ebf5fc;
+box-shadow: inset 5px 5px 10px #d8e1e8, 
+            inset -5px -5px 10px #feffff;
+            color: #32a3b1; 
+  }
+ .abc1
+ {
+   color: black;
+    border-radius: 10px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #d8e1e8, 
+             -5px -5px 10px #feffff;
+             height: 50px;
+             width: 90px;
+             text-align: center;
+             margin: 5px;
+             line-height: 30px;
+            color: #32a3b1;
+ }
+
+ .abc1:hover
+ {
+  border-radius: 10px;
+background: #ebf5fc;
+box-shadow: inset 5px 5px 10px #d8e1e8, 
+            inset -5px -5px 10px #feffff;
+            color: #32a3b1;
+ }
+@media screen and (max-width: 800px) {
+  .abc1 {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+.head1
+{
+             margin-top: 150px;
+             font-size: 10vw;
+             color: #ebf5fc;
+             text-shadow: -8px -8px 12px rgba(255,255,255,0.4),
+             8px 8px 12px rgba(0,0,0,0.08);
+             caret-color:#262626;
+             outline: none;
+             text-decoration: none;
+             border: none;
+             text-align: center;
+             
+            
+            margin-top: 220px;
+}
+.main
+{
+  margin-top: 20%;
+}
+.m1
+{
+  color:#ebf5fc;
+  text-shadow: -8px -8px 10px rgba(255,255,255,0.0), 
+             8px 8px 10px rgba(0,0,0,0.09);
+             font-size: 4vw;
+             font-weight: 500px;
+
+}
+.m2
+{
+  color:#ebf5fc;
+  text-shadow: -8px -8px 10px rgba(255,255,255,0.0), 
+             8px 8px 10px rgba(0,0,0,0.09);
+             font-size: 6vw;
+             font-weight: 100px;
+}
+.btnm3
+{
+ border-radius: 5px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #e2ebf2, 
+             -5px -5px 10px #f4ffff;
+             color: #32a3b1;
+           
+}
+.btnm3:hover
+{
+  border-radius: 5px;
+background: #ebf5fc;
+box-shadow: inset 5px 5px 10px #dde6ed, 
+            inset -5px -5px 10px #f9ffff;
+         color: #32a3b1;
+
+}
+.normal:hover
+{
+  border-radius: 5px;
+background: #ebf5fc;
+box-shadow: inset 5px 5px 10px #dde6ed, 
+            inset -5px -5px 10px #f9ffff;
+         color: #32a3b1;
+}
+.sec
+{
+  margin-top: 15%;
+}
+.card1
+{
+  border-radius: 0px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #e4eef4, 
+             -5px -5px 10px #f2fcff;
+             outline: none;
+             border: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+.alert1
+{
+  border-radius: 0px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #e4eef4, 
+             -5px -5px 10px #f2fcff;
+             outline: none;
+             border: none;
+}
+.alertinner1
+{
+          border-radius: 0px;
+background: #ebf5fc;
+box-shadow: inset 5px 5px 10px #e4eef4, 
+            inset -5px -5px 10px #f2fcff;
+            outline: none;
+            border: none;
+}
+.imgcard1
+{
+
+  border-radius: 0px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #e4eef4, 
+             -5px -5px 10px #f2fcff;
+             outline: none;
+             border: none;
+             width: 90%;
+             height: 104%;
+}
+.logincard
+{
+  border-radius: 0px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #e4eef4, 
+             -5px -5px 10px #f2fcff;
+             height: 430px;
+             width: 80%;
+}
+.texbox1
+{
+ border-radius: 0px;
+background: #ebf5fc;
+box-shadow: inset 5px 5px 10px #dfe9ef, 
+            inset -5px -5px 10px #f7ffff;
+            border:none;
+            outline: none;
+            color:#32a3b1;
+            height: 40px;
+            width: 80%;
+}
+.loginbtn1
+{
+  border-radius: 0px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #dfe9ef, 
+             -5px -5px 10px #f7ffff;
+             height: 40px;
+             width: 80%;
+             color: #32a3b1;
+             outline: none;
+             border: none;
+}
+.loginbtn1:hover
+{
+  border-radius: 0px;
+background: #ebf5fc;
+box-shadow: inset 5px 5px 10px #e4eef4, 
+            inset -5px -5px 10px #f2fcff;
+}
+.signincard
+{
+   border-radius: 0px;
+background: #ebf5fc;
+box-shadow:  5px 5px 10px #e4eef4, 
+             -5px -5px 10px #f2fcff;
+             height: 600px;
+             width: 80%;
+}
+.custom-range::-webkit-slider-thumb {
+  color: black;
+  background: #32a3b1;
+}
+
+.custom-range::-moz-range-thumb {
+  color: black;
+  background: #32a3b1;
+}
+
+.custom-range::-ms-thumb {
+  color: black;
+  background: #32a3b1;
+}
+
+</style>
+    <title>NEW</title>
+  </head>
+  <body>
+    
+
+
+
+
+
+
+<nav class="navbar navbar-expand-md fixed-top fixed-top a1">
+  <a class="navbar-brand abc" href="#">Nature</a>
+<button class="navbar-toggler btn btn-light btn1" type="button" data-toggle="collapse" data-target="#navbarNav"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link abc1" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link abc1" href="#explore">Explore</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link abc1" href="#advanture">About</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link abc1" href="#blog">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link abc1" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<br><br><br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center mt-5 card-body">
+        <h1>Neumorphism UI</h1><br>
+        <h6>Neumorphism inspired User Interface Kit that will help you<br> prototype and design beautiful, creative and modern websites.</h6><br><br>
+        <button class="btn btnm3">Download</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br><br><br><br><br>
+
+<section class="mt-5">
+  <div class="container text-center mt-5">
+    <div class="row">
+      <div class="col-md-4">
+     <center> <div class="card1 card-body" style="height: 100px; width: 100px; font-size: 40px; border-radius: 50px;">
+          <i class="fa fa-dropbox" aria-hidden="true"></i>
+        </div><br><br>
+        <h5>Over 200 components</h5>
+        <p>Beatifully crafted and neumorphism inspired elements</p>
+      </div>
+       <div class="col-md-4">
+         <center> <div class="card1 card-body" style="height: 100px; width: 100px; font-size: 40px; border-radius: 50px;">
+          <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+        </div><br><br>
+        <h5>10+ sections</h5>
+        <P>Navigation bars, pricing cards, footers and many more sections to enhance page variety</P>
+      </div>
+       <div class="col-md-4">
+         <center> <div class="card1 card-body" style="height: 100px; width: 100px; font-size: 40px; border-radius: 50px;">
+          <i class="fa fa-file-text-o" aria-hidden="true"></i>        </div><br><br>
+        <h5>5 example pages</h5>
+        <p>We took the time to create a few example pages to show you how neumorphic pages can look like</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br><br>
+
+
+<section>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-xl-12 sec">
+
+      <div class="accordion card1" id="accordionExample" style="border: none;">
+ <div class="card card1" style="border: none;">
+    <div class="card-header card1" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed card1" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+          Open <i class="fa fa-plus" aria-hidden="true" style="float: right; margin: 10px;"></i>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card card1" style="border: none;">
+    <div class="card-header card1" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed card1"  type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Open<i class="fa-+
+
+           fa-plus" aria-hidden="true" style="float: right; margin: 10px;"></i>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card card1" style="border: none;">
+    <div class="card-header card1" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left collapsed card1" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Open<i class="fa fa-plus" aria-hidden="true" style="float: right; margin: 10px;"></i>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  
+</section>
+
+<br><br><br><br><br><br>
+
+
+<SECTION>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-xl-12">
+      <div class="alert alert1" role="alert">
+         A simple light alert—check it out!
+      </div>
+
+      <div class="alert alert1" role="alert">
+         A simple light alert—check it out!
+      </div>
+
+      <div class="alert alert1" role="alert">
+         A simple light alert—check it out!
+      </div>
+
+      <div class="alert alert1" role="alert">
+         A simple light alert—check it out!
+      </div>
+
+      <div class="alert alert1" role="alert">
+         A simple light alert—check it out!
+      </div>
+    </div>
+  </div>
+</div>
+
+</SECTION>
+
+<br><br><br><br><br><br>
+
+
+
+<SECTION>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="alert alert1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+ <div class="alert alert1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+ <div class="alert alert1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+ <div class="alert alert1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+ <div class="alert alert1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+      </div>
+    </div>
+  </div>
+</SECTION>
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">        
+          <div class="alert alert1" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+
+<br><br>
+
+<div class="alert alertinner1" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br><br>
+
+<SECTION>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-xl-12">
+      <div class="alert alertinner1" role="alert">
+         A simple light alert—check it out!
+      </div>
+
+      <div class="alert alertinner1" role="alert">
+         A simple light alert—check it out!
+      </div>
+
+      <div class="alert alertinner1" role="alert">
+         A simple light alert—check it out!
+      </div>
+
+      <div class="alert alertinner1" role="alert">
+         A simple light alert—check it out!
+      </div>
+
+      <div class="alert alertinner1" role="alert">
+         A simple light alert—check it out!
+      </div>
+    </div>
+  </div>
+</div>
+
+</SECTION>
+
+
+<br><br><br><br><br><br>
+
+
+<SECTION>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="alert alertinner1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+ <div class="alert alertinner1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+ <div class="alert alertinner1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+ <div class="alert alertinner1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+ <div class="alert alertinner1 alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+      </div>
+    </div>
+  </div>
+</SECTION>
+
+
+<br><br><br><br><br><br>
+
+
+<section>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="card card1">
+  <img src="pic3.jpg" class="card-img-top" alt= "...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn btnm3">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col-md-4 text-center">
+<center>     <div class="card card1" style="width: 18rem;">
+  <img src="pic4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+<div class="col-md-4 text-center">
+  <div class="card card1" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link" style="color: #32a3b1;">Card link</a>
+    <a href="#" class="card-link" style="color: #32a3b1;">Another link</a>
+  </div>
+</div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+<br><br><br><br><br><br>
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+    <center>   <div class="card card1" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item card1">Cras justo odio</li><br>
+    <li class="list-group-item card1">Dapibus ac facilisis in</li><br>
+    <li class="list-group-item card1">Vestibulum at eros</li><br>
+     <li class="list-group-item card1">Lorem Ipsum</li>
+  </ul>
+</div>
+      </div><br>
+      <div class="col-md-6">
+     <center>     <div class="card card1" style="width: 18rem;">
+  <div class="card-header card1">
+    Featured
+  </div><br>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item card1">Cras justo odio</li><br>
+    <li class="list-group-item card1">Dapibus ac facilisis in</li><br>
+    <li class="list-group-item card1">Vestibulum at eros</li>
+  </ul>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<br><br><br><br><br><br>
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+    <center>   <div class="card card1" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item alertinner1">Cras justo odio</li><br>
+    <li class="list-group-item alertinner1">Dapibus ac facilisis in</li><br>
+    <li class="list-group-item alertinner1">Vestibulum at eros</li><br>
+     <li class="list-group-item alertinner1">Lorem Ipsum</li>
+  </ul>
+</div>
+      </div>
+      <div class="col-md-6">
+     <center>     <div class="card card1" style="width: 18rem;">
+  <div class="card-header card1">
+    Featured
+  </div><br>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item alertinner1">Cras justo odio</li><br>
+    <li class="list-group-item alertinner1">Dapibus ac facilisis in</li><br>
+    <li class="list-group-item alertinner1">Vestibulum at eros</li>
+  </ul>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container"> 
+    <div class="container"> 
+      <div class="col-xl-12">
+        <div class="card card1">
+           <div class="card-header card1">
+               Featured
+             </div>
+  <div class="card-body alertinner1"> 
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btnm3">Go somewhere</a>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="card text-center card1">
+  <div class="card-header card1">
+    Featured
+  </div>
+  <div class="card-body alertinner1">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btnm3">Go somewhere</a>
+  </div>
+  <div class="card-footer text-muted card1">
+    2 days ago
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br><br>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+     <center>   <div class="card mb-3 card1" style="max-width: 18rem;">
+  <div class="card-header card1">Header</div>
+  <div class="card-body alertinner1">
+    <h5 class="card-title">Primary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+      </div>
+      <div class="col-md-4">
+ <center>  <div class="card mb-3 card1" style="max-width: 18rem;">
+  <div class="card-header card1">Header</div>
+  <div class="card-body alertinner1">
+    <h5 class="card-title">Secondary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+      </div>
+      <div class="col-md-4">
+      <center>   <div class="card mb-3 card1" style="max-width: 18rem;">
+  <div class="card-header card1">Header</div>
+  <div class="card-body alertinner1">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br><br><br><br><br>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-group card1">
+  <li class="list-group-item d-flex justify-content-between align-items-center card1">
+    Cras justo odio
+    <span class="badge badge-primary badge-pill btnm3" style="font-size: 13px;">14</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center card1">
+    Dapibus ac facilisis in
+    <span class="badge badge-primary badge-pill btnm3" style="font-size: 13px;">2</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center card1">
+    Morbi leo risus
+    <span class="badge badge-primary badge-pill btnm3" style="font-size: 13px;">1</span>
+  </li>
+</ul>
+      </div>
+       <div class="col-md-6">
+        <ul class="list-group alertinner1">
+  <li class="list-group-item d-flex justify-content-between align-items-center alertinner1">
+    Cras justo odio
+    <span class="badge badge-primary badge-pill btnm3" style="font-size: 13px;">14</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center alertinner1">
+    Dapibus ac facilisis in
+    <span class="badge badge-primary badge-pill btnm3" style="font-size: 13px;">2</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center alertinner1">
+    Morbi leo risus
+    <span class="badge badge-primary badge-pill btnm3" style="font-size: 13px;">1</span>
+  </li>
+</ul>
+      </div>
+    </div>
+  </div>
+</section>
+<br><br><br><br><br><br>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="card card1">
+        <nav class="card1">
+  <div class="nav nav-tabs card1" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active card1" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+    <a class="nav-item nav-link card1" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+    <a class="nav-item nav-link card1" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active card-body" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+  <div class="tab-pane fade card-body" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+  <div class="tab-pane fade card-body" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+</div>
+    </div>
+  </div>  
+</div>
+</div>
+</section>
+
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center">
+   <center>    <div class="logincard">
+          <br> <br><h4 style="color: #32a3b1;">Login</h4><br><br>
+       <center><input type="text" class="texbox1" placeholder="Username" required><br><br><br>
+        <input type="Password" class="texbox1" placeholder="Password" required><br><br><br>
+        <input type="button" name="btn" value="Login" class="loginbtn1" required><br><br>
+        <p>Forget Password ?<a href="#" style="color: red;"> Click Here</a></p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <center>    <div class="signincard">
+          <br> <br><h4 style="color: #32a3b1;">Sign In</h4><br><br>
+       <center><input type="text" class="texbox1" placeholder="Username" required><br><br><br>
+        <input type="text" class="texbox1" placeholder="Email Id" required><br><br><br>
+
+        <input type="Password" class="texbox1" placeholder="Password" required><br><br><br>
+        <input type="Password" class="texbox1" placeholder="Re-Type Password" required><br><br><br>
+        <input type="button" name="btn" value="Sign In" class="loginbtn1" required><br><br>
+        <p>Forget Password ?<a href="#" style="color: red;">Click Here</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br><br>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <button type="button" class="btn btnm3">Primary</button>&nbsp
+         <button type="button" class="btn btnm3">Secondary</button>&nbsp
+          <button type="button" class="btn btnm3">Success</button>&nbsp
+           <button type="button" class="btn btnm3">Danger</button>&nbsp
+            <button type="button" class="btn btnm3">Light</button>
+      </div> <br><br><br>
+      <div class="col-xl-12">
+        <button type="button" class="btn alertinner1" style="color: #32a3b1;">Primary</button>&nbsp
+        <button type="button" class="btn alertinner1" style="color: #32a3b1;">Secondary</button>&nbsp
+          <button type="button" class="btn alertinner1" style="color: #32a3b1;">Success</button>&nbsp
+           <button type="button" class="btn alertinner1" style="color: #32a3b1;">Danger</button>&nbsp
+            <button type="button" class="btn alertinner1" style="color: #32a3b1;">Light</button>
+      </div><br><br><br>
+      <div class="col-md-12">
+        <button type="button" class="btn btnm3 btn-lg btn-block">Block level button</button>
+         <br>
+         <button type="button" class="btn alertinner1 btn-lg btn-block" style="color: #32a3b1;">Block level button</button>
+      </div><br><br><br><br><br><br>
+      <div class="col-md-12">
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btnm3 active">
+    <input type="radio" name="options" id="option1" checked> Active
+  </label>
+  <label class="btn btnm3">
+    <input type="radio" name="options" id="option2"> Radio
+  </label>
+  <label class="btn btnm3">
+    <input type="radio" name="options" id="option3"> Radio
+  </label>
+</div>
+      </div><br><br><br>
+      <div class="col-md-12">
+         <div class="dropdown">
+  <button class="btn btnm3 dropdown-toggle card1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: #ebf5fc; border: none; border-radius: 50px; ">
+    <a class="dropdown-item card1" href="#">Action</a>
+    <a class="dropdown-item card1" href="#">Another action</a>
+    <a class="dropdown-item card1" href="#">Something else here</a>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <form class="card1">
+  <div class="form-group">
+    <label for="formControlRange" style="color: #32a3b1;">Example Range input</label>
+    <input type="range" class="custom-range" id="formControlRange" min="0" max="100" style="color: #32a3b1;">
+  </div>
+</form>
+      </div>
+    </div>
+  </div>
+</section>
+<br><br><br><br><br><br>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+<button type="button" class="btn btnm3" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog alertinner1">
+    <div class="modal-content alertinner1">
+      <div class="modal-header alertinner1">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body alertinner1">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </div>
+      <div class="modal-footer alertinner1">
+        <button type="button" class="btn btnm3" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btnm3">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+<br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+   
+   <button type="button" class="btn btnm3" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on top
+</button>
+
+<button type="button" class="btn btnm3" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on right
+</button>
+
+<button type="button" class="btn btnm3" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on bottom
+</button>
+
+<button type="button" class="btn btnm3" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on left
+</button>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" ></div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%; background-color: #32a3b1;;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #32a3b1;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%; background-color: #32a3b1;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div><br>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 100%; background-color: #32a3b1;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row"> 
+      <div class="col-md-12">
+       <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+           </div>
+&nbsp&nbsp&nbsp
+           <button class="btn btnm3" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  <span class="sr-only">Loading...</span>
+</button>
+<button class="btn btnm3" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...
+</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      <center><div class="card1" style="height: 562px; width: 100%;">
+         <center> <img src="pic4.jpg" height="200" width="92%" align="center" style="border-radius: 5px; margin-top: 15px;">
+          <div class="card-body text-left">
+            <h5>New</h5>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button type="button" class="btn btnm3">Read More</button>
+          </div>
+          </div>
+        </div>
+       <div class="col-md-4">
+   <center>    <div class="card1" style="height: 562px; width: 100%;">
+         <center> <img src="pic3.jpg" height="200" width="99%" align="center" style="border-radius: 5px; margin-top: 15px;">
+          <div class="card-body text-left">
+            <h5>New</h5>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button type="button" class="btn btnm3">Read More</button>
+          </div>
+          </div>
+      </div>
+       <div class="col-md-4">
+         <center>    <div class="card1" style="height: 562px; width: 100%;">
+         <center> <img src="pic5.jpg" height="200" width="90%" align="center" style="border-radius: 5px; margin-top: 15px;">
+          <div class="card-body text-left">
+            <h5>New</h5>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button type="button" class="btn btnm3">Read More</button>
+          </div>
+          </div>
+      </div>
+
+    </div>
+</section>
+<br><br><br><br><br>
+
+<section>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alertinner1" style="height:100%; width:100%;">
+        
+     <center><div class="alertinner1" style="height:130px; width: 130px; border-radius: 10px; transform: translateY(-40%);">
+           <img src="pic5.jpg" height="100px" width="100px" style="border-radius: 5px; transform: translateY(15%);"></div>
+         
+           <div class="card-body">
+              <h5>New</h5>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button type="button" class="btn btnm3">Read More</button>
+           </div>
+      </div>
+      
+</center>
+</div>
+    <div class="col-md-4">
+       <div class="alertinner1" style="height:100%; width:100%;">
+        
+     <div class="alertinner1" style="height: 130px; width: 130px; border-radius: 10px; transform: translateY(-40%); margin-left: 25px;">
+     <center>      <img src="pic5.jpg" height="100px" width="100px" style="border-radius: 5px; transform: translateY(15%);"></div>
+         
+           <div class="card-body">
+              <h5>New</h5>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button type="button" class="btn btnm3">Read More</button>
+           </div>
+      </div>
+      </div>
+
+   
+
+    <div class="col-md-4">
+       <div class="card1" style="height:100%; width:100%;">
+        
+          <div class="alertinner1" style="height: 130px; width: 130px; margin: 0px; border-radius: 50%; transform: translateY(-40%); margin-left: 25px;">
+   <center><img src="pic5.jpg" height="100px" width="100px" style="border-radius: 50%; transform: translateY(15%);" ></div>
+          
+           <div class="card-body">
+              <h5>New</h5>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button type="button" class="btn btnm3">Read More</button>
+           </div>
+
+         </div>
+
+      </div>
+
+
+
+ </div>
+</div>
+</div>
+</section>
+
+
+<br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+     <div class="col-md-4">
+       <div class="card card1 card-body text-center">
+             <h3>Basic</h3>
+             <h1>$19</h1><br>
+            <h6>Intel i5 2.7</h6>
+            <hr>
+            <h6>512Mb Ram</h6>
+            <hr>
+            <h6>10GB Storage</h6>
+            <hr>
+            <h6>5GB Bandwidth</h6>
+            <hr>
+            <h6>20 Email Addresses</h6>
+            <hr>
+            <h6>24/7</h6>
+            <hr>
+            <h6>24/7</h6>
+            <hr>
+            <h6>Linux, Windows</h6><br>
+           <center><button type="button" class="btn btnm3" style="width: 110px;">Buy Now</button>
+       </div>
+     </div>
+
+       <div class="col-md-4">
+       <div class="card card1 card-body text-center">
+             <h3>Standart</h3>
+             <h1>$189</h1><br>
+            <h6>Intel i5 2.7</h6>
+            <hr>
+            <h6>512Mb Ram</h6>
+            <hr>
+            <h6>10GB Storage</h6>
+            <hr>
+            <h6>5GB Bandwidth</h6>
+            <hr>
+            <h6>20 Email Addresses</h6>
+            <hr>
+            <h6>24/7</h6>
+            <hr>
+            <h6>24/7</h6>
+            <hr>
+            <h6>Linux, Windows</h6><br>
+           <center><button type="button" class="btn btnm3" style="width: 110px;">Buy Now</button>
+       </div>
+     </div>
+
+     <div class="col-md-4">
+       <div class="card card1 card-body text-center">
+             <h3>Premium</h3>
+             <h1>$389</h1><br>
+            <h6>Intel i5 2.7</h6>
+            <hr>
+            <h6>512Mb Ram</h6>
+            <hr>
+            <h6>10GB Storage</h6>
+            <hr>
+            <h6>5GB Bandwidth</h6>
+            <hr>
+            <h6>20 Email Addresses</h6>
+            <hr>
+            <h6>24/7</h6>
+            <hr>
+            <h6>24/7</h6>
+            <hr>
+            <h6>Linux, Windows</h6><br>
+           <center><button type="button" class="btn btnm3" style="width: 110px;">Buy Now</button>
+             
+       </div>
+     </div>
+     
+
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        
+         <div class="card1">
+             <div class="row text-center">
+          <div class="col-md-6">
+            <br><br><br>
+            <h3>Basic</h3><br>
+            <h2>$19</h2><br>
+            <button type="button" class="btn btnm3" style="width: 200px;">Buy Now</button>
+          </div>
+           <div class="col-md-6">
+            <br><br>
+               <h5>Community support</h5><br>
+               <h5>15 GB SSD storage</h5>  <br>
+               <h5>One-click staging site</h5><br>
+               <h5>10 E-mail accounts</h5><br>
+               <h5>Team size: 1-5 developers</h5>
+          </div>
+
+         </div>
+</div>
+      </div>
+      <div class="col-md-6">
+        
+           <div class="alertinner1" style="height:107%; width: 100%;">
+            <br>
+           <center><div class="card1 card-body" style="width: 90%;">
+            <br>
+               <h2 style="text-align: left;">Regular</h2><br>
+               <h2 style="text-align: left;">$199</h2><br>
+               <p style="text-align: left;">So, get Website Backup and stop worrying about data loss. Get back to doing what you do best – running your business and making money.</p>
+           <center> <button type="button" class="btn btnm3" style="width: 90%;">Buy Now</butto>
+             </div>
+           </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br><br>
+
+
+<section>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xl-12">
+      <div class="card1 card-body">
+        <div class="row">
+        <div class="col-md-6">
+           <br><br>
+          <h2>Get in touch</h2> <br>
+          <p>If you need any help with our products or services, choose one of the following ways to contact us.</p>
+          <br><br>
+        </div>
+        <div class="col-md-6">
+          <br><br> <br><br>
+           <button type="button" class="btn btnm3" style="float: right;">Contact Us</butto>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</section>
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        
+          <div class="card1 card-body">
+             <div class="row">
+             <div class="col-md-6"><br>
+                <h2>Become one of us</h2><br>
+                <p>Do you want to join our team and work remotely from anywhere you'd like? We can’t wait to hear from you!</p><br>
+                <button type="button" class="btn btnm3">Check Careers</button><br>
+             </div>  
+             <div class="col-md-6">
+             
+             </div> 
+            </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="card-body card1 text-center">
+          <br> <br>
+           <h2>Ready to change your life?</h2> <br>
+           <h5>Download Rocket today and take the first step to organize your routine, achieve your personal goals and reflect on your life.</h5>
+            <br> <br>
+            <div style="display: flex; text-align: center; justify-content: center;">
+              <button type="button" class="btn btnm3">Download on the <br>App Store</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+               <button type="button" class="btn btnm3">Download on the <br>Google Play</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br><br><br><br><br>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="card-body card1 text-center"><br><br>
+        <h2>Get the most out of your network.</h2><br>
+        <p>Contact management designed for teams and individuals</p><br>
+      <center> <div class="input-group mb-3" style="justify-content: center;">
+  <input type="text" class="texbox1" placeholder="example@company.com" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btnm3" type="button" id="button-addon2">Subscribe</button>
+  
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br><br><br><br><br>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="card1 card-body">
+          <div id="carouselExampleSlidesOnly alertinner1" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="pic1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img7.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img6.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="card1 card-body">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="pic1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img7.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img6.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="card1 card-body">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="pic1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img7.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img6.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<br><br><br><br><br><br>
+
+
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="card1 card-body">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="pic1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img7.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img6.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="card1 card-body">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="pic1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img7.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img6.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        
+             <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="texbox1" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 100%;">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          <br><br>
+      
+      
+            <div style="display: flex;">
+          <div class="input-group-text card1">@</div>
+        <input type="text" class="texbox1" id="inlineFormInputGroup" placeholder="Username" style="width: 100%;">
+      </div>
+        <br><br>
+         <div style="display: flex;">
+        <input type="text" class="texbox1" id="inlineFormInputGroup" placeholder="Username" style="width: 100%;">
+         <div class="input-group-text card1">@</div>
+      </div>
+            
+           <br><br>
+         <div style="display: flex;">
+        <input type="Password" class="texbox1" id="inlineFormInputGroup" placeholder="Password" style="width: 100%;">
+         <div class="input-group-text card1">$</div>
+      </div>
+            
+
+       </div>
+      <div class="col-md-4">
+        
+          <fieldset disabled>
+    <div class="form-group">
+      <label for="disabledTextInput">Disabled input</label>
+      <input type="text" id="disabledTextInput" class="texbox1" placeholder="Disabled input" style="width: 100%;">
+    </div>
+            <br>
+    <div class="form-group">
+      <label for="disabledSelect">Disabled select menu</label>
+      <select id="disabledSelect" class="texbox1" style="width: 100%; color: black;">
+        <option>Disabled select</option>
+      </select>
+    </div>
+  </fieldset>
+         <br> 
+        
+        <form class="form-inline">
+  <select class="card1 custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" style="width: 100%;">
+    <option selected>Choose...</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</form>
+<br>
+    <form>
+    <div class="form-group">
+    <textarea class="alertinner1" id="exampleFormControlTextarea1" rows="4" style="width: 100%;"></textarea>
+  </div>
+</form>
+      </div>
+      <div class="col-md-4">
+        
+          <label for="validationServer01">First name</label>
+      <input type="text" class="form-control is-valid texbox1" id="validationServer01" value="Mark" style="width: 100%;" required>
+           <br> <br>
+             <label for="validationServer02">Last name</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+<br>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text btnm3" id="inputGroupFileAddon01">Upload</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input texbox1" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<br><br><br><br><br><br>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+         
+         <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+  <label class="form-check-label" for="defaultCheck1">
+  Active checkbox
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Option 1
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+Option 2
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+  <label class="form-check-label" for="defaultCheck2">
+    Disabled checkbox
+  </label>
+</div>
+
+      </div>
+      <div class="col-md-4">
+        
+         <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Default radio
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Second default radio
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+  <label class="form-check-label" for="exampleRadios3">
+    Disabled radio
+  </label>
+</div>
+
+     </div>
+  
+      <div class="col-md-4">
+        
+        <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
+</div>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
+  <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br><br>
+
+<SECTION>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+         
+          <label for="exampleInputEmail1">Choose a date</label>
+         <input type="date" id="date" name="date" class="texbox1">   
+     
+      </div>
+      <div class="col-md-4">
+        
+         <label for="exampleInputEmail1">From</label><br> 
+        <input type="date" id="date" name="date" class="texbox1">    
+       
+      </div>
+      <div class="col-md-4">
+        
+         <label for="exampleInputEmail1">To</label><br>
+         <input type="date" id="date" name="date" class="texbox1">   
+
+      </div>
+    </div>
+  </div>
+</SECTION>
+
+<br><br><br><br><br><br>
+
+<SECTION>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        
+         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+     <button type="button" class="btn btnm3"><<</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btnm3">1</button><br>
+    <button type="button" class="btn alertinner1" style=" color: #32a3b1;">2</button>
+    <button type="button" class="btn btnm3">3</button>
+    <button type="button" class="btn btnm3">4</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="Second group">
+    <button type="button" class="btn btnm3">5</button>
+    <button type="button" class="btn btnm3">6</button>
+    <button type="button" class="btn btnm3">7</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="Third group">
+    <button type="button" class="btn btnm3">>></button>
+  </div>
+</div>
+
+<br><br><br>
+   
+
+         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+     <button type="button" class="btn btnm3">Previous</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btnm3">1</button><br>
+    <button type="button" class="btn alertinner1" style=" color: #32a3b1;">2</button>
+    <button type="button" class="btn btnm3">3</button>
+    <button type="button" class="btn btnm3">4</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="Second group">
+    <button type="button" class="btn btnm3">5</button>
+    <button type="button" class="btn btnm3">6</button>
+    <button type="button" class="btn btnm3">7</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="Third group">
+    <button type="button" class="btn btnm3">Next</button>
+  </div>
+</div>
+
+      </div>
+      <div class="col-md-6">
+           
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+     <button type="button" class="btn btn-group-lg">Previous</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btn-group-lg">1</button><br>
+    <button type="button" class="btn btn-group-lg" style=" color: #32a3b1;">2</button>
+    <button type="button" class="btn btn-group-lg">3</button>
+    <button type="button" class="btn btn-group-lg">4</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="Second group">
+    <button type="button" class="btn btn-group-lg">5</button>
+    <button type="button" class="btn btn-group-lg">6</button>
+    <button type="button" class="btn btn-group-lg">7</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="Third group">
+    <button type="button" class="btn btn-group-lg">Next</button>
+  </div>
+</div>
+
+<br>
+
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+     <button type="button" class="btn btnm3">Previous</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btnm3">1</button><br>
+    <button type="button" class="btn alertinner1" style=" color: #32a3b1;">2</button>
+    <button type="button" class="btn btnm3">3</button>
+    <button type="button" class="btn btnm3">4</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="Second group">
+    <button type="button" class="btn btnm3">5</button>
+    <button type="button" class="btn btnm3">6</button>
+    <button type="button" class="btn btnm3">7</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="Third group">
+    <button type="button" class="btn btnm3">Next</button>
+  </div>
+</div>
+
+<br>
+
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+     <button type="button" class="btn btn-group-sm">Previous</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btn-group-sm">1</button><br>
+    <button type="button" class="btn btn-group-sm" style=" color: #32a3b1;">2</button>
+    <button type="button" class="btn btn-group-sm">3</button>
+    <button type="button" class="btn btn-group-sm">4</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="Second group">
+    <button type="button" class="btn btn-group-sm">5</button>
+    <button type="button" class="btn btn-group-sm">6</button>
+    <button type="button" class="btn btn-group-sm">7</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="Third group">
+    <button type="button" class="btn btn-group-sm">Next</button>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</SECTION>
+
+
+<br><br><br><br><br><br><br>
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        
+         <div class="card1 card-body">
+           
+            <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Class</th>
+      <th scope="col">Teacher</th>
+      <th scope="col">Males</th>
+      <th scope="col">Females</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">First Year</th>
+      <th>D. Bolter</th>
+      <th>5</th>
+      <th>4</th>
+    </tr>
+    <tr>
+      <th scope="row"> </th>
+      <th>A. Cheetham</th>
+      <th>7</th>
+      <th>9</th>
+    </tr>
+    <tr>
+      <th scope="row">Second Year</th>
+      <th>M. Lam</td>
+      <th>3</td>
+      <th>9</td>
+    </tr>
+    <tr>
+      <th scope="row">   </th>
+      <th>S. Crossy</th>
+      <th>4</th>
+      <th>3</th>
+    </tr>
+     <tr>
+      <th scope="row">   </th>
+      <th>A. Forsyth</th>
+      <th>6</th>
+      <th>9</th>
+    </tr>
+  </tbody>
+</table>
+
+         </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<br><br><br><br><br>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="alertinner1 card-body">
+           
+            <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Class</th>
+      <th scope="col">Teacher</th>
+      <th scope="col">Males</th>
+      <th scope="col">Females</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">First Year</th>
+      <th>D. Bolter</th>
+      <th>5</th>
+      <th>4</th>
+    </tr>
+    <tr>
+      <th scope="row"> </th>
+      <th>A. Cheetham</th>
+      <th>7</th>
+      <th>9</th>
+    </tr>
+    <tr>
+      <th scope="row">Second Year</th>
+      <th>M. Lam</td>
+      <th>3</td>
+      <th>9</td>
+    </tr>
+    <tr>
+      <th scope="row">   </th>
+      <th>S. Crossy</th>
+      <th>4</th>
+      <th>3</th>
+    </tr>
+     <tr>
+      <th scope="row">   </th>
+      <th>A. Forsyth</th>
+      <th>6</th>
+      <th>9</th>
+    </tr>
+  </tbody>
+</table>
+
+         </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br><br><br><br>
+
+
+
+<SECTION>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card1 card-body">
+           
+
+       <table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Class</th>
+      <th scope="col">Teacher</th>
+      <th scope="col">Males</th>
+      <th scope="col">Females</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">First Year</th>
+      <th>D. Bolter</th>
+      <th>5</th>
+      <th>4</th>
+    </tr>
+    <tr class="thead-light">
+      <th scope="row" style="background:#ebf5fc;"> </th>
+      <th>A. Cheetham</th>
+      <th>7</th>
+      <th>9</th>
+    </tr>
+    <tr>
+      <th scope="row">Second Year</th>
+      <th>M. Lam</td>
+      <th>3</td>
+      <th>9</td>
+    </tr>
+    <tr class="thead-light">
+      <th scope="row" style="background:#ebf5fc;">   </th>
+      <th>S. Crossy</th>
+      <th>4</th>
+      <th>3</th>
+    </tr>
+     <tr>
+      <th scope="row">   </th>
+      <th>A. Forsyth</th>
+      <th>6</th>
+      <th>9</th>
+    </tr>
+  </tbody>
+</table>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</SECTION>
+
+<br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card1 card-body">
+ <center><div class="p-3 mb-2 bg-primary" style="height: 140px; width: 140px; border-radius: 10px;">
+             
+          </div><br><br>
+          <h5>Primary:</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card1 card-body">
+ <center><div class="p-3 mb-2 bg-secondary" style="height: 140px; width: 140px; border-radius: 10px;">
+             
+          </div><br><br>
+          <h5>Secondary:</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card1 card-body">
+ <center><div class="p-3 mb-2 bg-success" style="height: 140px; width: 140px; border-radius: 10px;">
+             
+          </div><br><br>
+          <h5>Success:</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card1 card-body">
+ <center><div class="p-3 mb-2 bg-danger" style="height: 140px; width: 140px; border-radius: 10px;">
+             
+          </div><br><br>
+          <h5>Danger:</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card1 card-body">
+ <center><div class="p-3 mb-2 bg-warning" style="height: 140px; width: 140px; border-radius: 10px;">
+             
+          </div><br><br>
+          <h5>Warning:</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card1 card-body">
+ <center><div class="p-3 mb-2  bg-info" style="height: 140px; width: 140px; border-radius: 10px;">
+             
+          </div><br><br>
+          <h5>Info:</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card1 card-body">
+ <center><div class="p-3 mb-2 bg-light" style="height: 140px; width: 140px; border-radius: 10px;">
+             
+          </div><br><br>
+          <h5>Light:</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card1 card-body">
+ <center><div class="p-3 mb-2 bg-dark" style="height: 140px; width: 140px; border-radius: 10px;">
+             
+          </div><br><br>
+          <h5>Dark:</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<br><br><br><br><br><br><br><hr><br>
+
+
+
+
+<section>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-3">
+        
+         <p><b>Neumorphism UI PRO</b> is a premium Bootstrap UI Kit built based on the newest design trend called Neumorphism</p><br>
+         <button class="btn btnm3" style=""><i class="fa fa-facebook" aria-hidden="true"></i></button>&nbsp&nbsp
+         <button class="btn btnm3" style=""><i class="fa fa-instagram" aria-hidden="true"></i></button>&nbsp&nbsp
+         <button class="btn btnm3" style=""><i class="fa fa-twitter" aria-hidden="true"></i></button>&nbsp&nbsp
+         <button class="btn btnm3" style=""><i class="fa fa-github" aria-hidden="true"></i></button>
+      </div>
+      <div class="col-md-3">
+        <h5>Themesberg</h5><br>
+        <p class="normal btn" style="width: 100%; text-align: left;">Blog</p>
+        <p class="normal btn" style="width: 100%; text-align: left;">Product</p>
+        <p class="normal btn" style="width: 100%; text-align: left;">About Us</p>
+        <p class="normal btn" style="width: 100%; text-align: left;">Contact Us</p>
+      </div>
+      <div class="col-md-3">
+        <h5>Other</h5><br>
+         <p class="normal btn" style="width: 100%; text-align: left;">Doc</p>
+        <p class="normal btn" style="width: 100%; text-align: left;">ChangeLog</p>
+        <p class="normal btn" style="width: 100%; text-align: left;">Licence</p>
+        <p class="normal btn" style="width: 100%; text-align: left;">Support</p>       
+
+      </div>
+      <div class="col-md-3">
+         <h5>Subscribe</h5>       
+          <p>Join our mailing list. We write rarely, but only the best content.</p>
+          <input type="text" name="E-maill" placeholder="example@company.com" class="texbox1" style="width: 100%;"><br><br>
+          <input type="button" name="" value="Subscribe" class="btn btnm3" style="width: 100%;">
+      </div><br><br><br><br><br><br>
+      <div class="col-md-12 text-center mt-5">
+        <p>Copyright © Themesberg 2020. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(function () {
+  $('[data-toggle="popover"]').popover()
+})
+    </script>
+  </body>
+</html>
